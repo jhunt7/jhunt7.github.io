@@ -4,3 +4,4 @@ logo: cropped_punk.jpg
 description: This is a picture of me
 show_downloads: true
 google_analytics:
+theme: jekyll-theme-minimal
