@@ -40,28 +40,17 @@
 </head>
 <body>
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+  <button class="tablinks" onclick="openTab(event, 'About')">About</button>
+  <button class="tablinks" onclick="openTab(event, 'CV')">CV</button>
+  <button class="tablinks" onclick="openTab(event, 'Publications')">Publications</button>
+  <button class="tablinks" onclick="openTab(event, 'Presentations')">Presentations</button>
+  <button class="tablinks" onclick="openTab(event, 'Teaching')">Teaching</button>
 </div>
 
-<!-- Tab content -->
-<div id="London" class="tabcontent">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
-</div>
 
-<div id="Paris" class="tabcontent">
-  <h3>Paris</h3>
-  <p>Paris is the capital of France.</p>
-</div>
-
-<div id="Tokyo" class="tabcontent">
-  <h3>Tokyo</h3>
-  <p>Tokyo is the capital of Japan.</p>
-</div>
-  
-<div class="container">
+<!-- ABOUT ME/HOMEPAGE TAB -->
+<div id="About" class="tabcontent">
+  <div class="container">
         <div class="image">
             <a href="ADD PICTURE">
                 <img src="ADD PICTURE" height="310" alt="Joshua Hunt">
@@ -76,27 +65,33 @@
             <p>Office: Long Hall B01</p>
             <p><a href="Hunt_Joshua_CV.pdf" title="CV">CV</a></p>
         </div>
-    </div>
+  </div>
+  <p>
+    I am a 2nd year graduate student in the <a href="https://www.clemson.edu/science/academics/departments/mathstat/index.html">school of mathematical and statistical sciences</a> at Clemson University. I earned my bachelor's degree in math from Vanderbilt University. 
+  </p>
+  <p>
+    My advisor is TBA.
+  </p>
+  <p>
+    My research interests include number theory, L-functions, modular forms, partitions, and combinatorics. 
+  </p>
+</div>
 
-<p>
-  I am a 2nd year graduate student in the <a href="https://www.clemson.edu/science/academics/departments/mathstat/index.html">school of mathematical and statistical sciences</a> at Clemson University. I earned my bachelor's degree in math from Vanderbilt University. 
-</p>
-<p>
-  My advisor is TBA.
-</p>
-<p>
-  My research interests include number theory, L-functions, modular forms, partitions, and combinatorics. 
-</p>
+  
+<!-- CV TAB -->
+<div id="CV" class="tabcontent">
+  <h3>CV</h3>
+  <p><a href="Hunt_Joshua_CV.pdf" title="CV">CV</a></p>
+</div>
 
-<hr color="#0072BB">
 
-<h3>Research</h3>
-
-<h4>Publications</h4>
-<h4>Preprints</h4>
-<h4>In Preparation</h4>
-<h4>Undergraduate Honors Thesis</h4>
-<ol>
+<!-- PUBLICATIONS TAB -->
+<div id="Publications" class="tabcontent">
+  <h4>Publications</h4>
+  <h4>Preprints</h4>
+  <h4>In Preparation</h4>
+  <h4>Undergraduate Honors Thesis</h4>
+  <ol>
     <div class="ref-container">
        <div>
         <li><i>"Roots of Polynomials, Integer Partitions, and L-functions"</i>, </br> Awarded highest honors on defense (2023) </br> (available upon request) <br>
@@ -105,25 +100,31 @@
       <a href="horseshoe.jpg"><img src="horseshoe.jpg" height="90"
     width="160" style="border:2px solid #0072BB;border-radius:8px"></a>
     </div> 
-</ol>
+  </ol>
+</div>
 
-<hr color="#0072BB">
 
-<h3>Teaching and Mentoring</h3>
-
-<hr color="#0072BB">
-
-<h3>Presentations</h3>
+<!-- PRESENTATIONS TAB>
+<div id="Presentations" class="tabcontent">
+  <h3>Presentations</h3>
   <ul>
     <div class="ref-container">
       <div>
-        <li> <a href="Analytic_Continuation_of_Zeta_Presentation.pdf" title = "Analytic Continuation of the Riemann Zeta
-Function"><i>Analytic Continuation of the Riemann Zeta Function</i></a>, </br> Presented as a final project in my complex analysis class (December 2024) </li>
+        <li> <a href="Analytic_Continuation_of_Zeta_Presentation.pdf" title = "Analytic Continuation of the Riemann Zeta Function"><i>Analytic Continuation of the Riemann Zeta Function</i></a>, </br> Presented as a final project in my complex analysis class (December 2024)   </li>
         <li> <a href="Thesis_Presentation.pdf" title = "Undergraduate Honors Thesis Presentation"><i>Roots of Polynomials, Integer Partitions, and L-functions</i></a>, </br> Undergraduate honors thesis defense presentation (April 2023) </li>
         <li> <a href="Dirichlet_Series_Combinatorics_Presentation.pdf" title = "Dirichlet Generating Functions and Number Theory"><i>Dirichlet Generating Functions and Number Theory</i></a>, </br> Presented as a final project in my combinatorics class (April 2023) </li>
       </div>
   </ul>
+</div>
+  
 
+<!-- TEACHING TAB -->
+<div id="Teaching" class="tabcontent">
+  <h3>Teaching</h3>
+  <p>Business Calculus</p>
+</div>
+
+  
 <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
