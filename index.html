@@ -40,13 +40,12 @@
 </head>
 <body>
 <div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'About')">About</button>
+  <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
   <button class="tablinks" onclick="openTab(event, 'CV')">CV</button>
   <button class="tablinks" onclick="openTab(event, 'Publications')">Publications</button>
   <button class="tablinks" onclick="openTab(event, 'Presentations')">Presentations</button>
   <button class="tablinks" onclick="openTab(event, 'Teaching')">Teaching</button>
 </div>
-
 
 <!-- ABOUT ME/HOMEPAGE TAB -->
 <div id="About" class="tabcontent">
@@ -81,7 +80,6 @@
 <!-- CV TAB -->
 <div id="CV" class="tabcontent">
   <h3>CV</h3>
-  <p><a href="Hunt_Joshua_CV.pdf" title="CV">CV</a></p>
 </div>
 
 
@@ -126,5 +124,10 @@
 
   
 <script type="text/javascript" src="script.js"></script>
+<script>
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
 </body>
 </html>
