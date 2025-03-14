@@ -13,13 +13,13 @@
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
-  background-color: CornflowerBlue;
+  background-color: #6495ED;
 }
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
   background-color: inherit;
-  text-color: White;
+  text-color: #FFFFFF;
   float: right;
   border: none;
   outline: none;
@@ -30,14 +30,14 @@
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: Navy;
-  text-color: White;
+  background-color: #000080;
+  text-color: #FFFFFF;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: Navy;
-  text-color: White;
+  background-color: #000080;
+  text-color: #FFFFFF;
 }
 
 /* Style the tab content */
