@@ -41,7 +41,7 @@
       .logo 
       {
         float: right;
-        vertical-align: middle;
+        padding-top: 4px;
         padding-right: 4px;
       }
       
@@ -63,8 +63,8 @@
   <button class="tablinks" onclick="openTab(event, 'Publications')">Publications</button>
   <button class="tablinks" onclick="openTab(event, 'CV')">CV</button>
   <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
-  <div class="logo">
-    <img src="favicon.png" height=32px>
+  <div class="logo" onclick="openTab(event,'About')">
+    <img src="favicon.png" height=36px>
   </div>
 </div>
 
