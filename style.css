@@ -13,7 +13,7 @@
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
-  /* background-color: #0072BB; */
+  background-color: #0072BB;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -46,7 +46,6 @@
   display: none;
   padding: 6px 12px;
   width: 50%;
-  margin: auto;
   border: 1px solid #ccc;
   border-top: none;
 }
