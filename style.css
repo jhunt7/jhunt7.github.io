@@ -45,7 +45,6 @@
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  width: 50%;
-  border: 1px solid #ccc;
-  border-top: none;
+  width: 75%;
+  margin: auto;
 }
