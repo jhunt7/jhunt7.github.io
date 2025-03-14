@@ -32,11 +32,19 @@
       .container { display: flex; align-items: flex-start; }
       .image { margin-right: 20px; }
       .image img { border: 5px solid #34495e; border-radius: 8px; }
+      
       .img-with-text 
       {
         float: right;
-        margin-left: 30px
+        margin-left: 30px;
       }
+      .logo 
+      {
+        float: right;
+        vertical-align: middle;
+        padding-right: 4px;
+      }
+      
       .info { max-width: 1000px; }
       .info h1 { margin: 0; }
       .info p { margin: 5px 0; }
@@ -55,7 +63,9 @@
   <button class="tablinks" onclick="openTab(event, 'Publications')">Publications</button>
   <button class="tablinks" onclick="openTab(event, 'CV')">CV</button>
   <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
-  <img src="favicon.png" height=32px align=right>
+  <div class="logo">
+    <img src="favicon.png" height=32px>
+  </div>
 </div>
 
 
