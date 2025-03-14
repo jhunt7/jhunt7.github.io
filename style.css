@@ -39,6 +39,7 @@
 .tab button.active {
   background-color: #6495ED;
   text-color: #FFFFFF;
+  font-size: 2em;
 }
 
 /* Style the tab content */
